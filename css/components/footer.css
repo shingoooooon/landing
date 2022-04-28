@@ -1,0 +1,22 @@
+.footer {
+  height: 250px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.SNSs a {
+  color: white;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.SNSs a:hover {
+  color: gray;
+  transition: 1s;
+}

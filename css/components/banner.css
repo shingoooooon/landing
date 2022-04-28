@@ -1,0 +1,36 @@
+.banner {
+  height: 600px;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.banner a {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 12px 24px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+}
+
+.banner a:hover {
+  background-color: gray;
+  border: gray;
+  transition: 1s ease-in-out;
+  box-shadow: none;
+}
+
+.banner img{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+}
+
+.banner .container {
+  text-align: right;
+}
